@@ -216,10 +216,18 @@ header{
     color: white;
     font-family: $fuente;
     text-align: center; 
-    padding: 20px;
+    padding: 10px;
     li{
         list-style: none;
     }
+}
+.redesHome{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 10px;
 }
 .botonInicio{
     background-color: black;

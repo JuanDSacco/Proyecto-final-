@@ -221,10 +221,19 @@ header {
   color: white;
   font-family: "Lobster", cursive;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 .divFooterHome li {
   list-style: none;
+}
+
+.redesHome {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  letter-spacing: 10px;
 }
 
 .botonInicio {
