@@ -4,9 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+$color1:rgb(219, 65, 129);
+$color2:rgb(113, 32, 167);
+$fuente:'Lobster', cursive;
 header{
     background-color: rgb(113, 32, 167);
-    color: rgb(219, 65, 129);
+    color: $color1;
     width: 100%;
     font-family: 'Lobster', cursive;
 }
@@ -24,19 +27,20 @@ header{
     justify-content: space-between;
     font-size: 24px;
     font-family: 'Lobster', cursive;
-    background-color: rgb(113, 32, 167);
+    background-color: black;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 10px;
+    margin: 0;
     li{
         list-style: none;
     }
     a{
         text-decoration: none;
-        color: rgb(219, 65, 129);
+        color: $color1;
     }
     a:hover{
-        color:rgba(231, 26, 105, 0.596);
+        color:$color2;
     }
 }
 .imgHome{
@@ -48,7 +52,7 @@ header{
 }
 .produHome{
     background-color: rgb(113, 32, 167);
-    color: rgb(219, 65, 129);
+    color: black;
     padding: 10px;
     h2{
     text-align: center;
@@ -60,7 +64,7 @@ header{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    background-color:rgb(219, 65, 129);
+    background-color:$color2;
     height: 400px;
     .item1{
         background-image: url(../multimedia/cpu1.jpg);
@@ -183,4 +187,51 @@ header{
         }
     }
 }
-
+.servHome{
+    background-color: $color2;
+    padding: 10px;
+    h2{
+        text-align: center;
+        font-family: $fuente;
+        font-size: 30px;
+        color: black;
+    }
+}
+.sectServicios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    font-family: $fuente;
+    background-color: $color1;
+    height: 200px;
+    h3{
+        font-size: 25px;
+        color: $color2;
+        padding-top: 10px;
+    }
+}
+.divFooterHome{
+    background-color: black;
+    color: white;
+    font-family: $fuente;
+    text-align: center; 
+    padding: 20px;
+    li{
+        list-style: none;
+    }
+}
+.botonInicio{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: $fuente;
+    padding: 10px;
+    a{
+        text-decoration: none;
+        color: $color2;
+    }
+    a:hover{
+        color:$color1;
+    }
+}
