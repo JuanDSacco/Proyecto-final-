@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(113, 32, 167);
+  color: rgb(219, 65, 129);
+  width: 100%;
+  font-family: "Lobster", cursive;
+}
+
+.logo {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.logo span {
+  color: black;
+}
+
+.menuNav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-family: "Lobster", cursive;
+  background-color: rgb(113, 32, 167);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+.menuNav li {
+  list-style: none;
+}
+.menuNav a {
+  text-decoration: none;
+  color: rgb(219, 65, 129);
+}
+.menuNav a:hover {
+  color: rgba(231, 26, 105, 0.596);
+}
+
+.imgHome {
+  height: 300px;
+  width: 100%;
+  background-image: url(../multimedia/pc.jpg);
+  background-position: center;
+}
+
+.produHome {
+  background-color: rgb(113, 32, 167);
+  color: rgb(219, 65, 129);
+  padding: 10px;
+}
+.produHome h2 {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+.sectProdu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: rgb(113, 32, 167);
+}
+.sectProdu .item1 {
+  background-image: url(../multimedia/pcescritorio.png);
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding-right: 40px;
+}
+.sectProdu .item1 h3 {
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(219, 65, 129);
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+}
+.sectProdu .item2 {
+  background-image: url(../multimedia/notebook.png);
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.sectProdu .item2 h3 {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 140px;
+  color: rgb(219, 65, 129);
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+}
+.sectProdu .item3 {
+  background-image: url(../multimedia/rigmineria.png);
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.sectProdu .item3 h3 {
+  text-align: start;
+  padding-top: 165px;
+  color: rgb(219, 65, 129);
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  padding-left: 10px;
+}
+.sectProdu .item4 {
+  background-image: url(../multimedia/placadevideo.jpg);
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.sectProdu .item4 h3 {
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(219, 65, 129);
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
