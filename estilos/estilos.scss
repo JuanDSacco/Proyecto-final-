@@ -28,8 +28,8 @@ header{
     font-size: 24px;
     font-family: 'Lobster', cursive;
     background-color: black;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
     padding-bottom: 10px;
     margin: 0;
     li{
@@ -211,12 +211,33 @@ header{
         padding-top: 10px;
     }
 }
+.ser1 h3:hover{
+    font-size: 30px;
+}
+.ser2 h3:hover{
+    font-size: 30px;
+}
+.ser3 h3:hover{
+    font-size: 30px;
+}
+.ser4 h3:hover{
+    font-size: 30px;
+}
+.ser5 h3:hover{
+    font-size: 30px;
+}
+.ser6 h3:hover{
+    font-size: 30px;
+}
 .divFooterHome{
     background-color: black;
     color: white;
     font-family: $fuente;
     text-align: center; 
     padding: 10px;
+    h2{
+        font-size: 26px;
+    }
     li{
         list-style: none;
     }
@@ -241,5 +262,127 @@ header{
     }
     a:hover{
         color:$color1;
+    }
+}
+
+/* página productos */
+
+.sectProductos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:"txt1 txt1 txt2 txt2"
+                        "txt3 txt4 txt5 txt6"
+                        "txt7 txt7 txt8 txt8";
+    padding: 15px;
+    background-image: linear-gradient(white, $color1);
+    font-family: $fuente;
+    text-align: center;
+    font-size: 18px;
+}
+.prod1{
+        grid-area: txt1;
+        padding: 10px;
+        border-bottom: 2px solid black;
+    }
+.prod1:hover{
+    border-color: $color2;
+    color: $color2;
+    font-size: 22px;
+}
+.prod2{
+        grid-area: txt2;
+        padding: 10px;
+        border-bottom: 2px solid black;
+    }
+.prod2:hover{
+        border-color: $color2;
+        color: $color2;
+        font-size: 22px;
+}
+.prod3{
+        grid-area: txt3;
+        padding: 10px;
+    }
+.prod3:hover{
+        border-color: $color2;
+        color: $color2;
+}
+.prod4{
+        grid-area: txt4;
+        padding: 10px;
+    }
+.prod4:hover{
+        border-color: $color2;
+        color: $color2;
+}
+.prod5{
+        grid-area: txt5;
+        padding: 10px;
+    }
+.prod5:hover{
+        border-color: $color2;
+        color: $color2;
+}
+.prod6{
+        grid-area: txt6;
+        padding: 10px;
+    }
+.prod6:hover{
+        border-color: $color2;
+        color: $color2;
+}
+.prod7{
+        grid-area: txt7;
+        padding: 10px;
+        border-top: 2px solid black;
+        padding-top: 40px;
+    }
+.prod7:hover{
+        border-color: $color2;
+        color: $color2;
+        font-size: 22px;
+}
+.prod8{
+        grid-area: txt8;
+        padding: 10px;
+        border-top: 2px solid black;
+        padding-top: 40px;
+    }
+.prod8:hover{
+        border-color: $color2;
+        color: $color2;
+        font-size: 22px;
+}
+
+/* página servicios */
+
+.d-block{
+    height: 600px;
+}
+#car{
+    color: black;
+}
+.carousel-caption{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: $fuente;
+}
+.tituloForm{
+    background-color: $color2;
+    color: $color1;
+    text-align: center;
+    font-family: $fuente;
+    padding: 10px;
+    margin: 0;
+}
+.form{
+    background-color: $color2;
+    color: $color1;
+    text-align: center;
+    font-family: $fuente;
+    padding-bottom: 20px;
+    h4{
+        padding: 5px;
     }
 }
