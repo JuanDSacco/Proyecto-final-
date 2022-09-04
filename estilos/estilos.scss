@@ -386,3 +386,27 @@ header{
         padding: 5px;
     }
 }
+
+/* pagina nosotros */
+
+.imgNosotros{
+    background-image: url(../multimedia/nosotros1.jpg);
+    height: 500px;
+    background-position: center;
+    font-family: $fuente;
+    color: black;
+    text-align: center;
+    h2{
+        font-size: 30px;
+        padding-top: 130px;
+        padding-left: 500px;
+        text-shadow: 0.1em 0.1em 0.2em white;
+    }
+    p{
+        font-size: 25px;
+        padding-left: 220px;
+        text-shadow: 0.1em 0.1em 0.2em white;
+    }
+}
+
+
