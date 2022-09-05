@@ -406,14 +406,14 @@ header {
   margin: 0;
 }
 
-.form {
+.form, .formulario {
   background-color: rgb(113, 32, 167);
   color: rgb(219, 65, 129);
   text-align: center;
   font-family: "Lobster", cursive;
   padding-bottom: 20px;
 }
-.form h4 {
+.form h4, .formulario h4 {
   padding: 5px;
 }
 
@@ -474,6 +474,55 @@ header {
   font-size: 23px;
   text-shadow: 0.1em 0.1em 0.2em white;
   color: black;
+}
+
+/* pagina de contacto */
+.parrafo-28px {
+  font-size: 28px;
+  color: Black;
+}
+
+.parrafo-20px {
+  font-size: 20px;
+  color: white;
+}
+
+.parrafos .p1 {
+  background-color: rgb(219, 65, 129);
+}
+.parrafos .p1 p {
+  margin: 0;
+}
+.parrafos .p2 {
+  background-color: rgb(113, 32, 167);
+  margin: 0;
+  text-align: center;
+}
+
+.p1 {
+  text-align: center;
+  height: 50px;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  font-family: "Lobster", cursive;
+}
+
+.p2 {
+  text-align: end;
+  height: 100px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-family: "Lobster", cursive;
+  padding: 20px;
+}
+
+.tituloForm {
+  font-family: "Lobster", cursive;
+  background-color: rgb(219, 65, 129);
+  color: rgb(113, 32, 167);
+  text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+.formulario {
+  padding: 15px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

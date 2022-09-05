@@ -448,4 +448,52 @@ header{
     }
 }
 
+/* pagina de contacto */ 
 
+$mapa: (
+    28px: Black,
+    20px: white,
+);
+@each $size, $color in $mapa {
+    .parrafo-#{$size} {
+        font-size: $size;
+        color: $color;
+    }
+}
+.parrafos{
+    .p1{
+        background-color: $color1;
+        p{
+            margin: 0;
+        }
+    }
+    .p2{
+        background-color: $color2;
+        margin: 0;
+        text-align: center;
+    }
+}
+@mixin par ($ta, $h, $textsh) {
+    text-align: $ta;
+    height: $h;
+    text-shadow: $textsh;
+}
+.p1 {
+    @include par (center, 50px, 0.1em 0.1em 0.2em white);
+    font-family: $fuente
+}
+.p2{
+    @include par (end, 100px, 0.1em 0.1em 0.2em black);
+    font-family: $fuente;
+    padding: 20px;
+}
+.tituloForm{
+    font-family: $fuente;
+    background-color: $color1;
+    color: $color2;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+.formulario{
+    @extend .form;
+    padding: 15px;
+}
