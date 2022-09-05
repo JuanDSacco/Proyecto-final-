@@ -409,4 +409,43 @@ header{
     }
 }
 
+/* pagina oficina */ 
+
+.sectOfi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    .ofi1{
+        background-image: url(../multimedia/oficina.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 450px;
+    }
+    .ofi4{
+        height: 450px;
+        background-color: white;
+        iframe{
+            width: 100%;
+        }
+    }
+    .ofi2{
+        background-image: linear-gradient(white, $color1);
+        font-family: $fuente;
+        text-align: center;
+        padding-top: 150px;
+        font-size: 23px;
+        text-shadow: 0.1em 0.1em 0.2em white;
+        color: black;
+    }
+    .ofi3{
+        background-image: linear-gradient($color1, white);
+        font-family: $fuente;
+        text-align: center;
+        padding-top: 180px;
+        font-size: 23px;
+        text-shadow: 0.1em 0.1em 0.2em white;
+        color: black;
+    }
+}
+
 

@@ -438,4 +438,42 @@ header {
   text-shadow: 0.1em 0.1em 0.2em white;
 }
 
+/* pagina oficina */
+.sectOfi {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.sectOfi .ofi1 {
+  background-image: url(../multimedia/oficina.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+}
+.sectOfi .ofi4 {
+  height: 450px;
+  background-color: white;
+}
+.sectOfi .ofi4 iframe {
+  width: 100%;
+}
+.sectOfi .ofi2 {
+  background-image: linear-gradient(white, rgb(219, 65, 129));
+  font-family: "Lobster", cursive;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 23px;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  color: black;
+}
+.sectOfi .ofi3 {
+  background-image: linear-gradient(rgb(219, 65, 129), white);
+  font-family: "Lobster", cursive;
+  text-align: center;
+  padding-top: 180px;
+  font-size: 23px;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  color: black;
+}
+
 /*# sourceMappingURL=estilos.css.map */
