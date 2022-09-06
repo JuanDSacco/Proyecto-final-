@@ -525,4 +525,140 @@ header {
   padding: 15px;
 }
 
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .menuNav {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .sectProdu {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 1600px;
+  }
+  .sectServicios h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .botonInicio h4 {
+    font-size: 20px;
+  }
+  .d-block {
+    height: 250px;
+  }
+  .form, .formulario {
+    padding-top: 10px;
+  }
+  .sectProductos {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: "txt1" "txt2" "txt3" "txt4" "txt5" "txt6" "txt7" "txt8";
+  }
+  .prod2 h3 {
+    padding-top: 25px;
+  }
+  .prod3 {
+    border-bottom: 2px solid black;
+  }
+  .prod3 h3 {
+    padding-top: 45px;
+  }
+  .prod4 {
+    border-bottom: 2px solid black;
+  }
+  .prod4 h3 {
+    padding-top: 15px;
+  }
+  .prod5 {
+    border-bottom: 2px solid black;
+  }
+  .prod5 h3 {
+    padding-top: 35px;
+  }
+  .prod6 h3 {
+    padding-top: 30px;
+  }
+  .prod8 h3 {
+    padding-top: 20px;
+  }
+  .imgNosotros {
+    height: 330px;
+  }
+  .imgNosotros h2 {
+    padding: 1px;
+    font-size: 24px;
+  }
+  .imgNosotros p {
+    font-size: 18px;
+    padding: 2px;
+  }
+  .sectOfi {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 400px);
+  }
+  .sectOfi .ofi1 {
+    background-position: center;
+    background-size: cover;
+  }
+  .sectOfi .ofi2 {
+    padding: 50px;
+  }
+  .sectOfi .ofi3 {
+    padding: 50px;
+  }
+  .sectOfi .ofi4 {
+    height: 400px;
+  }
+  .sectOfi .ofi4 iframe {
+    height: 400px;
+  }
+  .p1 {
+    height: 130px;
+  }
+  .p2 {
+    height: 190px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .sectProductos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "txt1 txt2" "txt4 txt6" "txt7 txt8" "txt3 txt5";
+  }
+  .prod7 {
+    border: none;
+  }
+  .prod8 {
+    border: none;
+  }
+  .prod1 {
+    border: none;
+  }
+  .prod2 {
+    border: none;
+  }
+  .d-block {
+    height: 400px;
+  }
+  .form, .formulario {
+    padding-top: 10px;
+  }
+  .imgNosotros {
+    height: 300px;
+  }
+  .imgNosotros h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  .imgNosotros p {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .p1 {
+    height: 90px;
+  }
+  .p2 {
+    height: 130px;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */
