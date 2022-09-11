@@ -63,132 +63,15 @@ header {
   font-size: 30px;
 }
 
-.sectProdu {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  background-color: rgb(113, 32, 167);
-  height: 400px;
+.row {
+  background-color: rgb(219, 65, 129);
+  padding-left: 210px;
+  padding-top: 25px;
 }
-.sectProdu .item1 {
-  background-image: url(../multimedia/cpu1.jpg);
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-  padding-right: 40px;
-}
-.sectProdu .item1 h3 {
-  text-align: start;
-  padding-top: 10px;
-  padding-left: 10px;
-  color: rgb(219, 65, 129);
-  font-family: "Lobster", cursive;
-  font-size: 25px;
-}
-.sectProdu .item2 {
-  background-image: url(../multimedia/notebook.png);
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-.sectProdu .item2 h3 {
-  text-align: center;
-  padding-top: 15px;
-  padding-left: 180px;
-  color: rgb(219, 65, 129);
-  font-family: "Lobster", cursive;
-  font-size: 25px;
-}
-.sectProdu .item3 {
-  background-image: url(../multimedia/rigmineria.png);
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-.sectProdu .item3 h3 {
-  text-align: start;
-  padding-top: 165px;
-  color: rgb(219, 65, 129);
-  font-family: "Lobster", cursive;
-  font-size: 25px;
-  padding-left: 10px;
-}
-.sectProdu .item4 {
-  background-image: url(../multimedia/placadevideo.jpg);
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-.sectProdu .item4 h3 {
-  text-align: center;
-  padding-top: 10px;
-  color: rgb(219, 65, 129);
-  font-family: "Lobster", cursive;
-  font-size: 25px;
-}
-.sectProdu .item5 {
-  background-image: url(../multimedia/celulares.jpg);
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-.sectProdu .item5 h3 {
-  text-align: start;
-  padding-top: 10px;
-  padding-left: 5px;
-  color: rgb(219, 65, 129);
-  font-family: "Lobster", cursive;
-  font-size: 25px;
-}
-.sectProdu .item6 {
-  background-image: url(../multimedia/setup.jpg);
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-.sectProdu .item6 h3 {
-  text-align: start;
-  padding-top: 10px;
-  padding-left: 5px;
-  color: rgb(219, 65, 129);
-  font-family: "Lobster", cursive;
-  font-size: 25px;
-}
-.sectProdu .item7 {
-  background-image: url(../multimedia/perifericos.jpg);
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-.sectProdu .item7 h3 {
-  text-align: start;
-  padding-top: 10px;
-  padding-left: 5px;
-  color: rgb(219, 65, 129);
-  font-family: "Lobster", cursive;
-  font-size: 25px;
-}
-.sectProdu .item8 {
-  background-image: url(../multimedia/ram.png);
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-.sectProdu .item8 h3 {
-  text-align: right;
-  padding-top: 150px;
-  padding-right: 10px;
-  color: rgb(219, 65, 129);
-  font-family: "Lobster", cursive;
-  font-size: 25px;
+
+.card {
+  height: 435px;
+  width: 300px;
 }
 
 .servHome {
@@ -215,6 +98,10 @@ header {
   font-size: 25px;
   color: rgb(113, 32, 167);
   padding-top: 10px;
+}
+.sectServicios h3 a {
+  text-decoration: none;
+  color: rgb(113, 32, 167);
 }
 
 .ser1 h3:hover {
@@ -411,6 +298,7 @@ header {
   color: rgb(219, 65, 129);
   text-align: center;
   font-family: "Lobster", cursive;
+  padding-top: 15px;
   padding-bottom: 20px;
 }
 .form h4, .formulario h4 {
