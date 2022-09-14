@@ -72,6 +72,9 @@ header {
 .card {
   height: 435px;
   width: 300px;
+  background-color: rgb(113, 32, 167);
+  color: rgb(219, 65, 129);
+  font-family: "Lobster", cursive;
 }
 
 .servHome {
@@ -519,6 +522,14 @@ header {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+  .col {
+    padding-left: 42px;
+    padding-top: 20px;
+  }
   .sectProductos {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
